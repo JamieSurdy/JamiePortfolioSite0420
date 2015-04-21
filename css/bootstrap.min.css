@@ -1097,12 +1097,20 @@ a.Socialclick{
     font-size:20px;
 }
 
-#process1research_text, #process2wireframe_text, #process3prototype_text, #process4design_text{
+#process1research_text{
+    margin-top:1%;
+    border: 1px solid #999999;
+    min-height:315px;
+    height:auto;
+}
+
+ #process2wireframe_text, #process3prototype_text, #process4design_text{
     margin-top:1%;
     border: 1px solid #999999;
     min-height:300px;
     height:auto;
 }
+
 
 #process1research_photo{
     margin-top:1%;
