@@ -1085,9 +1085,6 @@ a.Socialclick{
 }
 
 
-
-
-
 /*_______________________________End About Page Styling________________________________________*/
 
 /*_______________________________Process Page Styling________________________________________*/
@@ -1171,7 +1168,49 @@ a.Socialclick{
 #process4design_text{
     margin-bottom:1%;
 }
+
+@media(width: 992px){
+    #process1research_photo{
+        min-height:355px;
+    }
+
+    #process2wireframe_photo{
+        min-height:320px;
+    }
+
+  };
+
+@media(min-width: 1026px){
+    #process1research_photo{
+        min-height:355px;
+    }
+
+    #process2wireframe_photo{
+        min-height:320px;
+    }
+
+  };
+
+
 /*_______________________________End Process Page Styling________________________________________*/
+
+/*_______________________________WorkMain Page Styling________________________________________*/
+
+ #Crystal, #CommuteMe, #TutoringPlus, #Craigslist, #SaltOlive, #Pandora{
+    margin-top:1%;
+    border: 1px solid #999999;
+    min-height:300px;
+    height:auto;
+    color:blue;
+}
+
+#Crystal{
+    min-height:300px;
+    height:auto;
+    color:red;
+}
+
+/*_______________________________End WorkMainPage Styling________________________________________*/
 
 /*_________________________________Bootstrap Column Widths_______________________________________*/
 
@@ -1395,6 +1434,7 @@ a.Socialclick{
 
     .col-md-6 {
         width: 49%;
+
     }
 
     .col-md-4 {
