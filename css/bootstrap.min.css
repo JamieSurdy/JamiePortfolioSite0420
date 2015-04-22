@@ -969,7 +969,6 @@ pre code {
 }
 
 a.Socialclick{
-    display:block;
     height:100%;
     width:100%;
 }
@@ -1117,12 +1116,7 @@ a.Socialclick{
     height:auto;
 }
 
-#process3prototype_photo{
-    margin-top:1%;
-    margin-right:1%;
-    border: 1px solid #999999;
-    min-height:300px;
-    height:auto;}
+
 
 #process2wireframe_photo, #process4design_photo{
     margin-top:1%;
@@ -1153,6 +1147,11 @@ a.Socialclick{
     background-size:contain;
     background-repeat:no-repeat;
     background-position:center;
+    margin-top:1%;
+    margin-right:1%;
+    border: 1px solid #999999;
+    min-height:300px;
+    height:auto;
 
 }
 
@@ -1169,7 +1168,7 @@ a.Socialclick{
     margin-bottom:1%;
 }
 
-@media(width: 992px){
+@media(min-width: 992px) and (max-width:1026px){
     #process1research_photo{
         min-height:355px;
     }
@@ -1178,18 +1177,9 @@ a.Socialclick{
         min-height:320px;
     }
 
-  };
+  }
 
-@media(min-width: 1026px){
-    #process1research_photo{
-        min-height:355px;
-    }
 
-    #process2wireframe_photo{
-        min-height:320px;
-    }
-
-  };
 
 
 /*_______________________________End Process Page Styling________________________________________*/
@@ -1200,15 +1190,14 @@ a.Socialclick{
     margin-top:1%;
     border: 1px solid #999999;
     min-height:300px;
-    height:auto;
-    color:blue;
+    height:300px;
+    display:block;
 }
 
-#Crystal{
-    min-height:300px;
-    height:auto;
-    color:red;
+#CommuteMe, #Craigslist, #Pandora{
+    margin-left:1%;
 }
+
 
 /*_______________________________End WorkMainPage Styling________________________________________*/
 
